@@ -15,7 +15,7 @@ h5 {
   padding: 0 20px;
 }
 
-/* Tic-tac-toe game
+/* Tic-tac-toe game 
 -------------------------------------------------------------- */
 .tic-tac-toe {
   font-family: 'Open Sans', sans-serif;
@@ -139,6 +139,10 @@ h5 {
     top: 300px;
   }
 }
+
+/* Inputs
+-------------------------------------------------------------- */
+
 .tic-tac-toe input[type="radio"]:checked ~ input[type="radio"]:checked ~ input[type="radio"]:checked ~
 input[type="radio"]:checked ~ input[type="radio"]:checked ~ input[type="radio"]:checked ~
 input[type="radio"]:checked ~ input[type="radio"]:checked ~ input[type="radio"]:checked ~ .end {
@@ -204,6 +208,11 @@ input[type="radio"]:checked ~ input[type="radio"]:checked ~ input[type="radio"]:
   -webkit-transition: background-color 0.3s;
   transition: background-color 0.3s;
 }
+
+/* Media Queries
+-------------------------------------------------------------- */
+
+
 @media (min-width: 450px) {
   .tic-tac-toe label {
     height: 140px;
@@ -261,6 +270,7 @@ input[type="radio"]:checked ~ input[type="radio"]:checked ~ input[type="radio"]:
     font-size: 40px;
   }
 }
+
 .tic-tac-toe .end a {
   background-color: #3d4250;
   border-radius: 4px;
